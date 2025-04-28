@@ -47,7 +47,7 @@ function EarthVisualization() {
   const [texture, setTexture] = useState(null);
   const [isRotating, setIsRotating] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [playSpeed, setPlaySpeed] = useState(150);
+  const [playSpeed, setPlaySpeed] = useState(500);
   const defaultTexture = null;
 
   useEffect(() => {
